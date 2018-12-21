@@ -1,0 +1,89 @@
+.savings-account {
+    background-color: #d6f5d6 !important;        
+}
+
+.checking-account {
+    background-color: #d6f5d6 !important;
+}
+
+.loans {
+    background-color: #d6f5d6 !important;
+}
+
+.account-image {
+    margin: auto;
+}
+
+.jumbotron{
+    background-image: url("img/te_present_1600x1060.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: white;
+
+}
+
+/* .photoOne{
+    background-image: url("img/photo_one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+} */
+
+.glyphicon {
+    font-size: 75px;
+
+}
+
+.fas {
+    font-size: 75px;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+}
+
+.col-md-4 table {
+     width: 100%;
+    border: lightgrey;
+     border-style: solid;
+     border-width: thin;
+   
+}
+
+th{
+/* font-size: 75%; */
+color:white;
+text-align: center;
+width: 100%;
+}
+
+tbody > tr:nth-child(odd) {
+    background: lightgrey;
+}
+
+.row .col-md-4:first-child table th {
+    background: cornflowerblue;
+}
+
+.row .col-md-4:nth-child(2) table th {
+    background: lightgreen;
+}
+
+.row .col-md-4:last-child table th {
+    background: lightcoral;
+}
+
+.headerPrice{
+    font-size: 75px;
+}
